@@ -44,3 +44,15 @@ AutoPilot:
 - Improved test coverage by 40%
 - Minimized regression risk
 - Accelerated modernization of legacy systems
+
+- Code layout
+├── agent/
+│   └── autopilot.py         # Core agent logic
+├── prompts/
+│   └── refactor_prompt.txt  # LLM prompt template
+├── tests/
+│   └── legacy_module_test.py # Auto-generated unit tests
+├── ui/
+│   └── cli.py               # Command-line interface
+├── docs/
+│   └── architecture.png     # Architecture diagram
